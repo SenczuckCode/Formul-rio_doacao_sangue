@@ -1,0 +1,22 @@
+#cabecalho{
+     background-color:#FFD1DC;
+    width: 1920px;
+    height: 140px;
+    margin-top: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 150px;
+}
+
+#foto_doacao{
+    position: fixed;
+    bottom: 277px;
+        
+}
