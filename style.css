@@ -1,8 +1,9 @@
 #cabecalho{
-    background-color: rgb(163, 37, 37);
+    background-color:#222a32;
     width: 1920px;
     height: 140px;
     margin-top: 0px;
+    border-bottom: 1px solid black;
 }
 body{
     margin: 0px;
@@ -17,11 +18,36 @@ body{
 
 #foto_doacao{
   display:flex;
-  justify-content: center;
-  margin: auto;
   border-radius: 20px;
+  width: 900px;
+  height: 450px;
+  margin-top: 30px;
+  border: 2px solid black;
 }
 
-#foto{
-    background-color:#c1c0c0;
+#foto_espaco{
+    background-color:#222a32; 
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+#botao_doe{
+    width: 170px;
+    height: 60px;
+    background-color: rgb(71, 1, 1);
+    justify-content: right;
+    position: absolute;
+    left: 1700px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+#texto_botao{
+    margin-top: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    color: aliceblue;
 }
