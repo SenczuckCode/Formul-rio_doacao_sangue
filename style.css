@@ -1,3 +1,7 @@
+body{
+     background-color:#222a32;
+}
+
 #cabecalho{
     background-color:#222a32;
     width: 1920px;
@@ -50,4 +54,15 @@ body{
     font-family: monospace;
     font-size: 20px;
     color: aliceblue;
+}
+
+/*-------------------------------------------------- Outra parte do site---------------------------------------*/
+#bloco_de_informacao{
+    background-color: bisque;
+    width: 1000px;
+    height: 3200px;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 20px;
 }
